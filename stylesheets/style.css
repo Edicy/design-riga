@@ -1,0 +1,197 @@
+.clearfix:after {
+  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+}
+
+/* general */
+
+body, p, img {margin:0; padding:0;}
+p { margin-bottom: 5px; }
+body {background:#fff url('../images/riga-b2.png?1') repeat-x; font: 14px/19px 'Palatino Linotype', Garamond, Times; color:#231d1d;}
+pre {
+white-space: normal;
+}
+img {border: none;}
+a {color:#b84b2c; text-decoration:underline;}
+a:hover {text-decoration: none;}
+
+h1, h2, h3 {font-family: 'Palatino Linotype', Garamond, Times; color:#b84b2c; margin:0; padding:0 0 10px 0;}
+h1 {font-size:30px; line-height:40px;}
+h2 {font-size:20px; line-height:30px;}
+
+form {padding:0; margin:5px 0 0 0;}
+
+.clearer {clear: both; font-size: 1px;  line-height: 1px;  height: 1px;}
+.left {float: left;}
+.right {float: right;}
+.small {font-size:10px; line-height:20px;}
+
+div#container{padding: 43px 0 0 0; background:#fff url('../images/riga-b2.png?1') repeat-x;}
+
+div#header {
+        position: relative;
+	height: 105px; 
+	padding:60px 0 0 58px; 
+	background: url('../images/riga-header.jpg?1') no-repeat;
+  overflow: hidden;
+}
+	#header h1 {font-size: 30px; line-height:40px; color:#fff; display: block; width: 240px;}
+	#header .h2 {font: 12px/54px Arial, Helvetica, Tahoma; color:#ff8526; margin-left: 20px; text-transform: uppercase; letter-spacing:8px; display:inline;}	
+	#header .h2 div {display:inline;}
+div#mainmenu {left:342px; position:absolute; bottom: 0; width: 540px;}
+	#mainmenu a {font-size: 17px; line-height:33px; color: #fff; margin-right:10px; padding:0 4px 0px 4px; text-decoration:none; }
+	#mainmenu a:hover {color:#ff8526; text-decoration: none;}
+	#mainmenu a.active {color:#fff; font-weight: normal; border-bottom: 6px solid #f5da9f;}
+	
+div#sidebar {float: left; width:246px; padding:0 0 20px 58px;}
+	.lang {background: url('../images/submenu-bg.png?1') repeat-x bottom; padding:6px 20px 6px 20px;}
+	.lang a {color:#000; text-decoration:none; margin-right:5px;}
+	.lang a:hover {text-decoration:underline;}
+	.lang a.active {color:#b84b2c; font-weight: bold; text-decoration:none;}
+	.search {background: #fff0cf; padding:10px 15px 10px 20px;}
+  .search input.textbox {margin:0; padding:2px; border: 1px solid #c3b088; width:180px;}
+  .search input.submit {width:11px; border: 0px; background: url('../images/submit.png?1') no-repeat; margin-top:5px;}
+	.latestnews {border: 8px solid #fff0cf; padding:15px 20px 20px 20px;}
+  .latestnews .newstitle {width:160px; overflow:hidden;}
+  .latestnews a.title {text-decoration:none; color:#000;}
+  .latestnews a.title:hover {text-decoration:underline;}
+  .latestnews .rss {margin-top:10px;}
+
+.date {color:#b84b2c; margin-right:5px; float:left;}	
+.body, #gallery, #blog {
+	padding:28px 0 0 4px;	
+}
+	
+div#content {float: left; width:514px; margin:0 0 0 38px;}
+
+	#submenu {background:#f7e1b2; margin:0; padding:0 24px; width:490px; overflow:hidden;}
+	#submenu a {
+  color:#000;
+  text-decoration:none;
+  padding: 0 0;
+  line-height: 32px;
+  margin-right: 10px;  
+	}  
+  #submenu a:hover {text-decoration:underline;}
+  #submenu a.active {font-weight: bold; text-decoration:none;}
+	#content .textbox {background:url('../images/subcontent-bg.png?1') repeat-y; width:514px; margin-top:30px; padding:0;}	
+  #content .textbox .L, #content .textbox .R {width:217px; padding:15px 20px 20px 20px; overflow:hidden;}
+  #content .textbox h1, #content .textbox h2, #content .textbox h3 {font-size:20px; line-height:30px;padding:0 0 15px 0;}
+  /* #content {margin:5px;} */
+	#blog .date, #blog h1, #blog .author {margin-right:5px;}
+                #blog h1 {
+                  line-height: 25px;
+                }
+  #blog h1 a {text-decoration:none;}
+  #blog h1 a:hover {text-decoration:underline;}
+  #blog h1 b {color:#b84b2c; font-weight:bold; font-size:15px;}
+  #blog h1 i {font-size:15px; font-weight:normal; color:#000; font-style:normal;}
+	#comments {padding:0px 0 0 4px;}
+  #comments h2 {margin:20px 0 0 24px;}
+  #comments .odd, #comments .even {
+   float: left; 
+   width:470px; 
+   margin:0 0px 0 0px; 
+   padding:19px 20px 15px 20px;
+   }
+  #comments .odd {background:#fff0cf;}
+  #comments .L {float:left; width:85px; padding-right:5px;}
+  #comments .R {float:right; width:380px;}
+	#commentsAdd {display:block; border: 5px solid #fff0cf; margin:20px 0 0 4px;padding:15px 16px;}
+   #commentsAdd .formtitle {width:80px; margin-top:15px;}
+
+   #commentsAdd input.textbox, #commentsAdd textarea {width:225px; max-width:225px; padding:3px 5px 5px 5px; margin:10px 10px 0 10px; border: 1px solid #edd8aa; font: 14px/19px 'Palatino Linotype';}
+   #commentsAdd input.submit {width:130px; border:0;border-bottom:1px solid #eabc5a; background-color:#f6dda7; color:#b84b2c; padding:0; margin:0; font: 14px/19px 'Palatino Linotype';}
+   #commentsAdd input.submit:hover {cursor:pointer;}
+   #commentsAdd textarea {height:100px;}
+   #commentsAdd .add {display:block; position:relative; top:95px;}
+	#gallery {margin-right:0px; width:520px;}
+  #galleryItem {margin:19px 0 0 0; border:0px; padding:0 10px 0 0;}
+  #gallery .thumb {padding: 19px 7px 0 0; float:left;}
+  #gallery .thumb img {border: 1px solid #f8e3b7; padding:0 0 0 0; margin:0;}
+  #gallery h3 {font-size: 10px; color:#000; font-weight:normal; padding:5px 0 0 0;}
+	#footer {width:785px; margin:0; padding:0 0 20px 68px; font-size:12px; line-height:18px;}
+	#footer .a {padding-left:15px;}
+	.footerhr {width:797px; font-size:1px; line-height:1px; margin: 15px 0 10px 58px; padding:0; border-top: 1px solid #ede9e9;}
+
+.blogentry {
+  padding-bottom: 40px;
+}
+#footer .left {
+  display: block;
+  width: 520px;
+}
+
+#mainmenu a, #submenu a {
+  display: inline-block;
+}
+/* forms */
+
+   .form_area {
+
+      margin: 20px 0;
+
+}
+
+.form_field {
+
+  margin: 0 0 5px;
+
+}
+.form_field label {
+  display: block;
+  font-weight: bold;
+}
+
+.form_error {
+
+  color: #c71414;
+
+  font-weight: bold;
+
+  font-size: 12px;
+
+  border: 1px dotted #c71414;
+
+  padding: 5px;
+
+}
+
+.form_field_error {
+
+  color: #c71414;
+
+  font-size: 10px;
+  line-height: 14px;
+
+}
+
+.form_notice {
+
+  color: green;
+
+  border: 1px dotted green;
+
+  padding: 5px;
+
+}
+.form_field_size_large {
+
+width: 98%;
+
+}
+
+.form_field_size_medium {
+
+width: 50%;
+
+}
+.form_field_size_small {
+
+width: 25%;
+
+}
+body .add-article {
+  margin-bottom: 15px;
+  display: inline-block !important;
+  text-decoration: none;
+}

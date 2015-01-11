@@ -1,0 +1,129 @@
+{
+  "assets": [
+    {
+      "filename": "riga-b2.png",
+      "file": "images/riga-b2.png",
+      "kind": "images",
+      "content_type": "image/png"
+    },
+    {
+      "filename": "submit.png",
+      "file": "images/submit.png",
+      "kind": "images",
+      "content_type": "image/png"
+    },
+    {
+      "filename": "gallery-item.jpg",
+      "file": "images/gallery-item.jpg",
+      "kind": "images",
+      "content_type": "image/jpg"
+    },
+    {
+      "filename": "riga-b.png",
+      "file": "images/riga-b.png",
+      "kind": "images",
+      "content_type": "image/png"
+    },
+    {
+      "filename": "riga-header.jpg",
+      "file": "images/riga-header.jpg",
+      "kind": "images",
+      "content_type": "image/jpg"
+    },
+    {
+      "filename": "style.css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "content_type": "text/css"
+    },
+    {
+      "filename": "subcontent-bg.png",
+      "file": "images/subcontent-bg.png",
+      "kind": "images",
+      "content_type": "image/png"
+    },
+    {
+      "filename": "submenu-bg.png",
+      "file": "images/submenu-bg.png",
+      "kind": "images",
+      "content_type": "image/png"
+    }
+  ],
+  "preview_medium": "http://static.edicy.com/designs/previews/riga_medium.jpg",
+  "author": "Tajo Oja",
+  "layouts": [
+    {
+      "title": "Front page",
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "Common page",
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "Blog & News",
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "component": false,
+      "content_type": "blog"
+    },
+    {
+      "title": "Blog article",
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "component": false,
+      "content_type": "blog_article"
+    },
+    {
+      "title": "Head",
+      "file": "components/head.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Header",
+      "file": "components/header.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Sidebar",
+      "file": "components/sidebar.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Submenu",
+      "file": "components/submenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Footer",
+      "file": "components/footer.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "JS",
+      "file": "components/js.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    }
+  ],
+  "preview_small": "http://static.edicy.com/designs/previews/riga_small.jpg",
+  "name": "Riga",
+  "description": "Riga"
+}
