@@ -1,129 +1,129 @@
 {
-  "assets": [
-    {
-      "filename": "riga-b2.png",
-      "file": "images/riga-b2.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "submit.png",
-      "file": "images/submit.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "gallery-item.jpg",
-      "file": "images/gallery-item.jpg",
-      "kind": "images",
-      "content_type": "image/jpg"
-    },
-    {
-      "filename": "riga-b.png",
-      "file": "images/riga-b.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "riga-header.jpg",
-      "file": "images/riga-header.jpg",
-      "kind": "images",
-      "content_type": "image/jpg"
-    },
-    {
-      "filename": "style.css",
-      "file": "stylesheets/style.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    },
-    {
-      "filename": "subcontent-bg.png",
-      "file": "images/subcontent-bg.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "submenu-bg.png",
-      "file": "images/submenu-bg.png",
-      "kind": "images",
-      "content_type": "image/png"
-    }
-  ],
+  "description": "Riga",
+  "name": "Riga",
   "preview_medium": "http://static.edicy.com/designs/previews/riga_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/riga_small.jpg",
   "author": "Tajo Oja",
   "layouts": [
     {
-      "title": "Front page",
+      "content_type": "page",
+      "component": false,
       "file": "layouts/front_page.tpl",
       "layout_name": "page_front",
-      "component": false,
-      "content_type": "page"
+      "title": "Front page"
     },
     {
-      "title": "Common page",
+      "content_type": "page",
+      "component": false,
       "file": "layouts/common_page.tpl",
       "layout_name": "page_default",
-      "component": false,
-      "content_type": "page"
+      "title": "Common page"
     },
     {
-      "title": "Blog & News",
+      "content_type": "blog",
+      "component": false,
       "file": "layouts/blog___news.tpl",
       "layout_name": "blog_front",
-      "component": false,
-      "content_type": "blog"
+      "title": "Blog & News"
     },
     {
-      "title": "Blog article",
+      "content_type": "blog_article",
+      "component": false,
       "file": "layouts/blog_article.tpl",
       "layout_name": "blog_article",
-      "component": false,
-      "content_type": "blog_article"
+      "title": "Blog article"
     },
     {
-      "title": "Head",
+      "content_type": "component",
+      "component": true,
       "file": "components/head.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
+      "layout_name": "head",
+      "title": "head"
     },
     {
-      "title": "Header",
-      "file": "components/header.tpl",
-      "layout_name": "",
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Sidebar",
-      "file": "components/sidebar.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Submenu",
-      "file": "components/submenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Footer",
       "file": "components/footer.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
+      "layout_name": "footer",
+      "title": "footer"
     },
     {
-      "title": "JS",
-      "file": "components/js.tpl",
-      "layout_name": "",
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
+      "file": "components/header.tpl",
+      "layout_name": "header",
+      "title": "header"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/sidebar.tpl",
+      "layout_name": "sidebar",
+      "title": "sidebar"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
     }
   ],
-  "preview_small": "http://static.edicy.com/designs/previews/riga_small.jpg",
-  "name": "Riga",
-  "description": "Riga"
+  "assets": [
+    {
+      "content_type": "image/jpeg",
+      "file": "images/gallery-item.jpg",
+      "kind": "images",
+      "filename": "gallery-item.jpg"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/riga-b.png",
+      "kind": "images",
+      "filename": "riga-b.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/riga-b2.png",
+      "kind": "images",
+      "filename": "riga-b2.png"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/riga-header.jpg",
+      "kind": "images",
+      "filename": "riga-header.jpg"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/subcontent-bg.png",
+      "kind": "images",
+      "filename": "subcontent-bg.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/submenu-bg.png",
+      "kind": "images",
+      "filename": "submenu-bg.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/submit.png",
+      "kind": "images",
+      "filename": "submit.png"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
 }
