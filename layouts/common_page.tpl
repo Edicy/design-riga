@@ -10,7 +10,7 @@
 	{% include "Sidebar" %}
 	<div id="content">
   {% include "Submenu" %}
-  <div class="body clearfix">
+  <div class="body clearfix" data-search-indexing-allowed="true">
    {% content %}
   </div>
 	</div>

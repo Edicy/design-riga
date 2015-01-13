@@ -10,12 +10,12 @@
 	{% include "Sidebar" %}
 	<div id="content">
   {% include "Submenu" %}
-  <div class="body clearfix">
+  <div class="body clearfix" data-search-indexing-allowed="true">
    {% content %}
   </div>
   <div class="textbox">
-   <div class="L left clearfix">{% content name="a" %}</div>
-   <div class="R left clearfix">{% content name="b" %}</div>
+   <div class="L left clearfix" data-search-indexing-allowed="true">{% content name="a" %}</div>
+   <div class="R left clearfix" data-search-indexing-allowed="true">{% content name="b" %}</div>
    <div class="clearer"></div>
   </div>
 	</div>

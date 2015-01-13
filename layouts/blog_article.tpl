@@ -20,7 +20,7 @@
 	
   <h1><b>{{ article.created_at | format_date:"short" }}</b> {% editable article.title plain="true" %} <i>{{ article.author.name }}</i></h1>
   
-  <p class="clearfix">
+  <p class="clearfix" data-search-indexing-allowed="true">
   {% editable article.excerpt %}
   <br />
   {% editable article.body %}</p>	

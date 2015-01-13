@@ -8,7 +8,7 @@
                 {% if editmode %}{%languageadd%}</p>{% else %}{% if site.has_many_languages? %}</p>{% endif %}{% endif %}
 	</div>	
 {% if site.search.enabled %}<div class="search">
-<form action="">
+<form action="" class="edys-search">
 <div>
 <input id="onpage_search" class="textbox" type="text"/>
 </div>
